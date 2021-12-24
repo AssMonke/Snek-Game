@@ -1,0 +1,18 @@
+{
+    "name": "Snek Game",
+    "description": "A game about sneks made with pure html, css, and javascript.",
+    "version": "0.6",
+    "manifest_version": 3,
+
+    "icons":
+    {
+        "16": "/images/snek.png",
+        "48": "/images/snek.png",
+        "128": "/images/snek.png"
+    },
+    
+    "action": 
+    {
+        "default_popup": "index.html"
+    }
+  }

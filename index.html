@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Snek Gaem</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <head>
+            <h1 id="score">0</h1>
+        </head>
+        
+        <div class="snakeBod" style="z-index: 1;" id="snake">
+            <img style="z-index: 2;" id="hat" src="/images/hat.png" width="40px" height="40px" unselectable="on">
+            <div id="eye" style="z-index: 3;"></div>
+        </div>
+
+        <div id="apple"></div>
+
+        <p id="gameOver"></p>
+        <button id="retry"></button>
+
+        <audio src="/audio/nom.mp3" id="nom"></audio>
+        <audio src="/audio/hit.mp3" id="hit"></audio>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
